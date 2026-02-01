@@ -63,31 +63,48 @@ print(full_name)"""
 #-------------------------Functions-------------------------------------------------
 
 
-num1 = int(input("Enter 1st number : "))
-num2 = int(input("Enter 2nd number : "))
+# num1 = int(input("Enter 1st number : "))
+# num2 = int(input("Enter 2nd number : "))
 
-def add(a, b) :
- return a + b
+# def add(a, b) :
+#  return a + b
 
-def sub(a,b):
-  return a - b
+# def sub(a,b):
+#   return a - b
 
-def mul(a, b):
-  return a * b
+# def mul(a, b):
+#   return a * b
 
-def rem(a, b):
-  return a % b
+# def rem(a, b):
+#   return a % b
 
-def quo(a, b):
-  return a / b
+# def quo(a, b):
+#   return a / b
 
-print("Addition :",add(num1,num2))
-print("Subraction :",sub(num1,num2))
-print("Multiplication :",mul(num1,num2))
-print("Reminder :",rem(num1,num2))
-print("Quoitent :",add(num1,num2))
+# print("Addition :",add(num1,num2))
+# print("Subraction :",sub(num1,num2))
+# print("Multiplication :",mul(num1,num2))
+# print("Reminder :",rem(num1,num2))
+# print("Quoitent :",add(num1,num2))
 
-print(f"Entered two numbers are {num1} & {num2}")
+# print(f"Entered two numbers are {num1} & {num2}")
 
+# def uppercase(str):
+#   return str.upper()
+
+# def lowercase(str):
+#   return str.lower()
+
+# variable = "KRITHIK"
+
+# # need to send this data in API response in caps letter
+# print(lowercase(variable))
+
+
+# def my_function():
+#   return ["cherry", "banana", "apple"]
+# x = my_function()
+# x.sort()
+# print(x)
 
 
