@@ -108,3 +108,8 @@ print(full_name)"""
 # print(x)
 
 
+
+def my_function(*,name,address):
+  print("Hello", name,address)
+
+my_function(name = "Emil",address="ferferfr")
