@@ -107,9 +107,24 @@ print(full_name)"""
 # x.sort()
 # print(x)
 
+# def my_function(*,name,address):
+#   print("Hello", name,address)
+
+# my_function(name = "Emil",address="ferferfr")
 
 
-def my_function(*,name,address):
-  print("Hello", name,address)
+# cart_items = [25.5,"10.00",5.99,"12.50",100]
+# total_value = 5
+# index = 0
 
-my_function(name = "Emil",address="ferferfr")
+# for x in cart_items:
+#   index = cart_items.index(x)
+#   if type(x) is str:
+#    cart_items[index] = float(x)
+#   if float(x) > 50 :
+#     cart_items[index] = x + total_value
+ 
+# print(cart_items)
+
+
+
